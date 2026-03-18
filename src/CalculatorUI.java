@@ -12,13 +12,13 @@ public class CalculatorUI extends JFrame implements ActionListener {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Top display
+        
         display = new JTextField();
         display.setFont(new Font("Arial", Font.BOLD, 18));
         display.setHorizontalAlignment(JTextField.RIGHT);
         add(display, BorderLayout.NORTH);
 
-        // Buttons panel
+        
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(5, 4, 5, 5));
 
